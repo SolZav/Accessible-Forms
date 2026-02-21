@@ -45,14 +45,14 @@
 					<legend>Preferred Contact Method<span class="required">*</span></legend>
 
 					<input id="pref-phone" type="radio" name="contact-pref" checked>
-					<label for="pref-phone">Phone</label>
+					<label for="pref-phone" value="Preferred-phone">Phone</label>
 
 					<input id="pref-email" type="radio" name="contact-pref">
 					<label for="pref-email">Email</label>
 				</fieldset>
 
 				<label for="state">State<span class="required">*</span></label>
-				<select id="state" name="select">
+				<select id="state" name="select" required>
 					<option value="">Choose your state</option>
 					<option value="al">AL</option>
 					<option value="ak">AK</option>
@@ -110,7 +110,7 @@
 				<label for="comments">Comments</label>
 				<textarea id="comments" name="comments"></textarea>
 
-				<input id="submit" type="submit" name="submit" aria-labelledby="submit">
+				<input id="submit" type="submit" name="submit" value="Submit" aria-labelledby="submit">
 			</form>
 		</article>
 	</main>
